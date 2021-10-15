@@ -5,9 +5,6 @@ import styles from './app.module.scss';
 type AppProps = {};
 
 const App = memo<AppProps>(function App() {
-    const error = 'asdasd';
-    console.log(error);
-
     return (
         <div className={styles.App}>
             <header className={styles.AppHeader}>
